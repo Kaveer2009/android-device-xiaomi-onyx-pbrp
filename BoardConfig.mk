@@ -5,6 +5,10 @@
 #
 
 # Building with minimal manifest
+
+#Device path
+DEVICE_PATH := device/xiaomi/onyx
+
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Rules
