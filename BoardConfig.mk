@@ -104,7 +104,7 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 TW_RELEASE_PRODUCT_NAME := $(subst $(space),_,$(PRODUCT_MODEL))
 
 # Extras
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+# TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
