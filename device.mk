@@ -31,8 +31,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.fuse.passthrough.enable=true
 
 # otacert
-PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(DEVICE_PATH)/security/releasekey
+# PRODUCT_EXTRA_RECOVERY_KEYS += \
+#     $(DEVICE_PATH)/security/releasekey
 
 TWRP_REQUIRED_MODULES += \
     prebuilt
