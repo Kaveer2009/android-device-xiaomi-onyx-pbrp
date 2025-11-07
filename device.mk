@@ -20,9 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # API
-BOARD_SHIPPING_API_LEVEL := 35
-PRODUCT_SHIPPING_API_LEVEL := 35
-PRODUCT_TARGET_VNDK_VERSION := 35
+BOARD_SHIPPING_API_LEVEL := 32
+PRODUCT_SHIPPING_API_LEVEL := 32
+PRODUCT_TARGET_VNDK_VERSION := 32
 
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
